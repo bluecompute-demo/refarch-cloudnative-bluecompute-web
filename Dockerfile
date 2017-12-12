@@ -1,4 +1,4 @@
-FROM node:6
+FROM mycluster.icp:8500/default/node:6
 
 ADD StoreWebApp /StoreWebApp
 
